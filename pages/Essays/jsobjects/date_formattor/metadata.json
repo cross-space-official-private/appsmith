@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "date_formattor",
+    "pageId": "Essays",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Essays_date_formattor",
+  "deleted": false,
+  "gitSyncId": "64eee16bdfdfb21328899e82_64f2e70ddfdfb21328899ea7"
+}

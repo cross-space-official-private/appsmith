@@ -7,6 +7,10 @@
     {
       "id": "Servers",
       "isDefault": false
+    },
+    {
+      "id": "Essays",
+      "isDefault": false
     }
   ],
   "viewMode": false,

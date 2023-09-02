@@ -1,0 +1,4 @@
+{{{
+	"content": essay_conclusion.text,
+		"main_points": essay_main_points.text
+}}}

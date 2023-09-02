@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Servers",
-    "slug": "servers",
+    "name": "Essays",
+    "slug": "essays",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 870,
+          "bottomRow": 1070,
           "containerStyle": "none",
           "snapRows": 81,
           "parentRowSpace": 1,
@@ -28,18 +28,35 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Servers_get_servers",
-              "name": "get_servers",
+              "id": "Essays_get_chat_records",
+              "name": "get_chat_records",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "appsmith.store.start_time",
+                "appsmith.store.end_time",
+                "appsmith.store.datasource_id"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Essays_get_essay",
+              "name": "get_essay",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.generation_log_id",
+                "appsmith.store.server_id"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Servers",
+        "id": "Essays",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -50,5 +67,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "64eee16bdfdfb21328899e82_64f0a367dfdfb21328899e97"
+  "gitSyncId": "64eee16bdfdfb21328899e82_64f2e534dfdfb21328899ea1"
 }
