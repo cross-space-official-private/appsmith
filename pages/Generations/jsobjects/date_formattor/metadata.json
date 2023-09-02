@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "date_formattor",
+    "pageId": "Generations",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Generations_date_formattor",
+  "deleted": false,
+  "gitSyncId": "64eee16bdfdfb21328899e82_64f0a1b2dfdfb21328899e94"
+}

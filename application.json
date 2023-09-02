@@ -3,6 +3,10 @@
     {
       "id": "Generations",
       "isDefault": true
+    },
+    {
+      "id": "Servers",
+      "isDefault": false
     }
   ],
   "viewMode": false,

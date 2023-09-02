@@ -1,27 +1,26 @@
 {
   "unpublishedPage": {
-    "name": "Generations",
-    "slug": "generations",
+    "name": "Servers",
+    "slug": "servers",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 800,
+          "bottomRow": 720,
           "containerStyle": "none",
-          "snapRows": 124,
+          "snapRows": 81,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 83,
-          "minHeight": 1292,
-          "dynamicTriggerPathList": [],
+          "minHeight": 830,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -29,21 +28,18 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Generations_get_generations",
-              "name": "get_generations",
+              "id": "Servers_get_servers",
+              "name": "get_servers",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [
-                "generation_list.pageSize",
-                "(generation_list.pageNo-1)*generation_list.pageSize"
-              ],
+              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
           ]
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Generations",
+        "id": "Servers",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -54,5 +50,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "64eee16bdfdfb21328899e82_64eee16bdfdfb21328899e84"
+  "gitSyncId": "64eee16bdfdfb21328899e82_64f0a367dfdfb21328899e97"
 }
