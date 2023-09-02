@@ -11,6 +11,10 @@
     {
       "id": "Essays",
       "isDefault": false
+    },
+    {
+      "id": "Evaluations",
+      "isDefault": false
     }
   ],
   "viewMode": false,

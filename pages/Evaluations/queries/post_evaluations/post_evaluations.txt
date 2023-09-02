@@ -1,0 +1,8 @@
+{{{
+	"integrity": integrity.text,
+		"readability": readability.text,
+			"objectivity": objectivity.text,
+				"accuracy": accuracy.text,
+					"relevance": relevance.text,
+						"evaluator": evaluator.text
+}}}
