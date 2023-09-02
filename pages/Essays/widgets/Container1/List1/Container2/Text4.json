@@ -27,6 +27,7 @@
         {"key": "text"}
     ],
     "shouldTruncate": false,
+    "borderWidth": "",
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
     "text": "{{currentItem.message}}",
     "key": "91wtt1i3ia",
@@ -37,7 +38,7 @@
     "widgetId": "qmjnrkfh5a",
     "minWidth": 450,
     "isVisible": true,
-    "fontStyle": "BOLD",
+    "fontStyle": "",
     "textColor": "#231F20",
     "version": 1,
     "parentId": "txqw69inv5",
@@ -52,6 +53,6 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 15,
     "maxDynamicHeight": 9000,
-    "fontSize": "1rem",
+    "fontSize": "0.875rem",
     "minDynamicHeight": 4
 }
