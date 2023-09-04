@@ -31,7 +31,7 @@
     "text": "Time Range: \n\n{{date_formattor.formatDate(currentItem.time_range.Lower)}} to {{date_formattor.formatDate(currentItem.time_range.Upper)}}",
     "key": "m685f1l3wy",
     "isDeprecated": false,
-    "rightColumn": 49,
+    "rightColumn": 44,
     "textAlign": "LEFT",
     "dynamicHeight": "FIXED",
     "widgetId": "7e86yl1wpq",
